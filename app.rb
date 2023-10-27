@@ -5,6 +5,7 @@ get("/") do
   erb(:homepage)
 end
 
+
 get("/square/new") do
   erb(:homepage)
 end
@@ -15,6 +16,7 @@ get("/square/results") do
   
   erb(:square_result)
 end
+
 
 get("/square_root/new") do
   erb(:root)
